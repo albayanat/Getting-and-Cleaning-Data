@@ -1,6 +1,6 @@
 
 ## Run_Analysis.R
-cat("Start Script")
+cat("Start script")
 ## Check if required packages are installed, else install them
 if(!"purrr" %in% rownames(installed.packages())) {install.packages("purrr")}
 if(!"dplyr" %in% rownames(installed.packages())) {install.packages("dplyr")}
