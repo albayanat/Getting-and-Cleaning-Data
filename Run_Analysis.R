@@ -1,6 +1,6 @@
 
 ## Run_Analysis.R
-cat("Start script")
+cat("Start Run_Analysis.R \n")
 ## Check if required packages are installed, else install them
 if(!"purrr" %in% rownames(installed.packages())) {install.packages("purrr")}
 if(!"dplyr" %in% rownames(installed.packages())) {install.packages("dplyr")}
@@ -96,4 +96,4 @@ df_average <- df_mean_std_measures %>%
 ## Write tidy data set into txt
 write.table (df_average, file = "UCI_HRA_Tidy.txt", row.name = FALSE)
 
-cat("End of script")
+cat("Tidy data saved into UCI_HRA_Tidy.txt \n")
