@@ -1,5 +1,7 @@
 # UCI_HRA_Tidy Code Book 
+
 number of observations: 180
+
 number of variables: 88
 
 # ActivityName
@@ -7,101 +9,192 @@ Activity performed by the subject (6 values): LAYING, SITTING, STANDING, WALKING
 
 # Subject
 Subject who performed the activity
+
 Individual identified by a number: 1:30
 
 # Measurements variables
 86 measurements variables giving average of the values the mean and std of the signal measures for each (ActivityName, Subject)
 
 TBodyAccMeanX
+
 TBodyAccMeanY
+
 TBodyAccMeanZ
+
 TBodyAccStdX
+
 TBodyAccStdY
+
 TBodyAccStdZ
+
 TGravityAccMeanX
+
 TGravityAccMeanY
+
 TGravityAccMeanZ
+
 TGravityAccStdX
+
 TGravityAccStdY
+
 TGravityAccStdZ
+
 TBodyAccJerkMeanX
+
 TBodyAccJerkMeanY
+
 TBodyAccJerkMeanZ
+
 TBodyAccJerkStdX
+
 TBodyAccJerkStdY
+
 TBodyAccJerkStdZ
+
 TBodyGyroMeanX
+
 TBodyGyroMeanY
+
 TBodyGyroMeanZ
+
 TBodyGyroStdX
+
 TBodyGyroStdY
+
 TBodyGyroStdZ
+
 TBodyGyroJerkMeanX
+
 TBodyGyroJerkMeanY
+
 TBodyGyroJerkMeanZ
+
 TBodyGyroJerkStdX
+
 TBodyGyroJerkStdY
+
 TBodyGyroJerkStdZ
+
 TBodyAccMagMean
+
 TBodyAccMagStd
+
 TGravityAccMagMean
+
 TGravityAccMagStd
+
 TBodyAccJerkMagMean
+
 TBodyAccJerkMagStd
+
 TBodyGyroMagMean
+
 TBodyGyroMagStd
+
 TBodyGyroJerkMagMean
+
 TBodyGyroJerkMagStd
+
 FBodyAccMeanX
+
 FBodyAccMeanY
+
 FBodyAccMeanZ
+
 FBodyAccStdX
+
 FBodyAccStdY
+
 FBodyAccStdZ
+
 FBodyAccMeanFreqX
+
 FBodyAccMeanFreqY
+
 FBodyAccMeanFreqZ
+
 FBodyAccJerkMeanX
+
 FBodyAccJerkMeanY
+
 FBodyAccJerkMeanZ
+
 FBodyAccJerkStdX
+
 FBodyAccJerkStdY
+
 FBodyAccJerkStdZ
+
 FBodyAccJerkMeanFreqX
+
 FBodyAccJerkMeanFreqY
+
 FBodyAccJerkMeanFreqZ
+
 FBodyGyroMeanX
+
 FBodyGyroMeanY
+
 FBodyGyroMeanZ
+
 FBodyGyroStdX
+
 FBodyGyroStdY
+
 FBodyGyroStdZ
+
 FBodyGyroMeanFreqX
+
 FBodyGyroMeanFreqY
+
 FBodyGyroMeanFreqZ
+
 FBodyAccMagMean
+
 FBodyAccMagStd
+
 FBodyAccMagMeanFreq
+
 FBodyBodyAccJerkMagMean
+
 FBodyBodyAccJerkMagStd
+
 FBodyBodyAccJerkMagMeanFreq
+
 FBodyBodyGyroMagMean
+
 FBodyBodyGyroMagStd
+
 FBodyBodyGyroMagMeanFreq
+
 FBodyBodyGyroJerkMagMean
+
 FBodyBodyGyroJerkMagStd
+
 FBodyBodyGyroJerkMagMeanFreq
+
 AngleTBodyAccMeanGravity
+
 AngleTBodyAccJerkMeanGravityMean
+
 AngleTBodyGyroMeanGravityMean
+
 AngleTBodyGyroJerkMeanGravityMean
+
 AngleXGravityMean
+
 AngleYGravityMean
+
 AngleZGravityMean
 
+
 # Source of data
+
 - Data were obtain by running the script Run_Analysis.R
-- Data collected from the accelerometers from the Samsung Galaxy S smartphone: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+- Data collected from the accelerometers from the Samsung Galaxy S smartphone: 
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 # Data Set Information:
 
