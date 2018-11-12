@@ -10,7 +10,7 @@ Subject who performed the activity
 Individual identified by a number: 1:30
 
 # Measurements variables
-86 measurements variables giving average of the values the mean and std measures of the for each (ActivityName, Subject)
+86 measurements variables giving average of the values the mean and std of the signal measures for each (ActivityName, Subject)
 
 TBodyAccMeanX
 TBodyAccMeanY
