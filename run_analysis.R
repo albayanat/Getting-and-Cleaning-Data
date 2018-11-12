@@ -1,5 +1,5 @@
 
-## Run_Analysis.R
+## run_analysis.R
 cat("Start Run_Analysis.R \n")
 ## Check if required packages are installed, else install them
 if(!"purrr" %in% rownames(installed.packages())) {install.packages("purrr")}
