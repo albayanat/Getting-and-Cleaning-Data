@@ -33,7 +33,7 @@ ldata_test<-map(paths_test, read.table, stringsAsFactors = FALSE)
         ## Reshape test set to build the test dataframe
         ## 1st variable "Subject" is obtained from the 1st element of the list
         ## 2nd variable "Population" is set to "test" for all the observations. This could be useful after merging the testing and training datasets
-        ## 3rd variable "ACtivityCode" is obtained from the 3rd element of the list
+        ## 3rd variable "ActivityCode" is obtained from the 3rd element of the list
         ## Others variables are the measurements data and obtained from the 2nd element of the list
 df_test<-cbind(Subject = ldata_test$subject_test.txt$V1, Population = "test", ActivityCode = ldata_test$y_test.txt$V1, ldata_test$X_test.txt)
 rm(ldata_test) #large object can be removed
@@ -44,7 +44,7 @@ rm(ldata_test) #large object can be removed
 paths_train<-dir("./UCI HAR Dataset/train", pattern=".txt$", full.names = TRUE)
 names(paths_train) <- basename(paths_train)
 
-##Read each txt file in the test directory and load into the list ldata_test
+##Read each txt file in the test directory and load into the list ldata_train
 ldata_train<-map(paths_train, read.table, stringsAsFactors = FALSE)
 ## The result is a list of 3 data elements:
 ## subject_test.txt gives the subject of the observations
@@ -54,7 +54,7 @@ ldata_train<-map(paths_train, read.table, stringsAsFactors = FALSE)
 ## Reshape training set to build the training dataframe
 ## 1st variable "Subject" is obtained from the 1st element of the list
 ## 2nd variable "Population" is set to "train" for all the observations. This could be useful after merging the testing and training datasets
-## 3rd variable "ACtivityCode" is obtained from the 3rd element of the list
+## 3rd variable "ActivityCode" is obtained from the 3rd element of the list
 ## Others variables are the measurements data and obtained from the 2nd element of the list
 df_train<-cbind(Subject = ldata_train$subject_train.txt$V1, Population = "train", 
                 ActivityCode = ldata_train$y_train.txt$V1, ldata_train$X_train.txt)
